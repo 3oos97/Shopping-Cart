@@ -1,0 +1,33 @@
+﻿nav {
+    position:absolute;
+    top:100px;
+    width: 200px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 50px;
+    background-color: darkgray;
+    left: 10px;
+}
+
+    nav h3 {
+        color: blue;
+        font-size:30px;
+        width: 126px;
+    }
+
+div.items {
+    padding-left: 180px;
+    height: 149px;
+    margin-left: 185px;
+}
+
+.CAT{
+    color:black;
+    font-size:22px;
+    margin-left:40px;
+}
+
+.IMG{
+
+}
+

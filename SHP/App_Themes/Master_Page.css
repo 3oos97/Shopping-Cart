@@ -1,0 +1,55 @@
+﻿body {
+}
+
+h1{
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color:red;
+}
+
+menu{
+    font-size:large;
+}
+
+.home{
+    color:brown;
+    position:absolute;
+    top:50px;
+    left:10px;
+    right: 1031px;
+}
+
+.login {
+    color: brown;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.signup {
+    color: brown;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.account {
+    position: absolute;
+    top: 50px;
+    right: 170px;
+   
+}
+
+.cart {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.logout{
+    position:absolute;
+    top:53px;
+    right:30px;
+}
+

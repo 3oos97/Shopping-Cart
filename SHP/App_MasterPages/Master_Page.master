@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_Page.master.cs" Inherits="Home_Page" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title>Home</title>
+
+    <link href="../App_Themes/Master_Page.css" rel="stylesheet" />
+</head>
+    
+<body>
+    <form id="form1" runat="server">
+      
+        <header>
+            <h1>Shopping Cart</h1>
+        </header>
+
+        <menu>
+        
+            <asp:LinkButton ID="_Home" runat="server" CssClass="home" OnClick="_Home_Click">Home</asp:LinkButton>
+            <asp:LinkButton ID="_LogIn" runat="server" CssClass="login" OnClick="_LogIn_Click">Log In</asp:LinkButton>
+            <asp:LinkButton ID="_SignUp" runat="server" CssClass="signup" OnClick="_SignUp_Click">Sign Up</asp:LinkButton>
+            <asp:ImageButton ID="_Account" runat="server" CssClass="account" Width="30px" Height="35" ImageUrl="~/App_Resources/Icons/icons8-customer-50.png"  Visible="false" OnClick="_Account_Click" />
+            <asp:ImageButton ID="_Cart" runat="server" CssClass="cart" Width="30px" Height="35" ImageUrl="~/App_Resources/Icons/icons8-shopping-cart-50.png"  Visible="false" OnClick="_Cart_Click"  />
+            <asp:ImageButton ID="_LogOut" runat="server" CssClass="logout" ImageUrl="~/App_Resources/Icons/icons8-shutdown-30.png" Visible="false" OnClick="_LogOut_Click" />
+        </menu>
+        
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <footer>
+
+        </footer>
+    </form>
+</body>
+</html>
